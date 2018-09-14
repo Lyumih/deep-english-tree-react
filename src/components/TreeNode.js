@@ -2,10 +2,8 @@ import React from 'react'
 
 import Node from './Node'
 
-
 const TreeNode = ({tree=[], topLevel=0,  level=1, downLevel=2}) => {
-    
-    
+
     return(<div className="TreeNode">
         <p>TreeNode English</p>
         <Node 
